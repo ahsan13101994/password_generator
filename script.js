@@ -36,8 +36,8 @@ document.getElementById("generate").addEventListener("click", function () {
   
  
   function generatePassword(arr) {
-    var arrLen = 26;
-    var randomIndex = Math.floor(math.random() * 128);
+    var arrLen = 128;
+    var randomIndex = Math.floor(Math.random() * 128);
     return arr[0]
   }
 
